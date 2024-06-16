@@ -33,13 +33,16 @@ If you are not using environment than you have to follow following steps:
 2. now use this command ``` echo %GOOGLE_API_KEY% ```
    if your API key is returned it means API key is set as environment variable, alternatively you can also view API key by directly going in the environment variables.
 
-skip this step if you already done above 2 steps
+skip this step if you already done above 2 steps,
+
   if you already set up an environment just define the API key in the variable named `GOOGLE_API_KEY` in your `.env` file.
 
 
 Now you are all set up to launch :rocket: your chatbot 
 use the following command to launch the code:
-``` streamlit run main.py ```
+``` 
+streamlit run main.py
+```
 
 
 
