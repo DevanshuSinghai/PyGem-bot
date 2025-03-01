@@ -43,7 +43,3 @@ use the following command to launch the code:
 ``` 
 streamlit run main.py
 ```
-
-
-
-You are free to commit any new feature :relaxed::relaxed:
