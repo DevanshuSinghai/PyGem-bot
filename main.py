@@ -19,7 +19,7 @@ def gemini_vision():
     model = genai.GenerativeModel('gemini-pro-vision')
     return model
 
-# get response from gemini pro vision model
+# get response from gemini model
 def gemini_visoin_response(model, prompt, image):
     response = model.generate_content([prompt, image])
     return response.text
